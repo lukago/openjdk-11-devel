@@ -1,0 +1,22 @@
+pkgbase = openjdk-11-devel
+	pkgdesc = Java OpenJDK 11 build from Oracle.
+	pkgver = 11.0.1
+	pkgrel = 1
+	url = http://jdk.java.net/11
+	arch = x86_64
+	license = GPL2
+	depends = java-environment-common
+	depends = java-runtime-common
+	depends = ca-certificates-utils
+	depends = nss
+	provides = java-environment=11
+	provides = java-environment-openjdk=11
+	provides = java-runtime=11
+	provides = java-runtime-openjdk=11
+	provides = java-runtime-headless=11
+	provides = java-runtime-headless-openjdk=11
+	source = https://download.java.net/java/GA/jdk11/13/GPL/openjdk-11.0.1_linux-x64_bin.tar.gz
+	sha256sums = 7a6bb980b9c91c478421f865087ad2d69086a0583aeeb9e69204785e8e97dcfd
+
+pkgname = openjdk-11-devel
+
